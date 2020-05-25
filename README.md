@@ -39,9 +39,7 @@ We assume, you have created an account at [The Things Network (TTN)](https://www
 
 Let's go to [your console](https://console.thethingsnetwork.org/) and create an application
 
-[[assets/aqi-ttn-application.png|alt=Add TTN application]]
-
-![alt text](assets/aqi-ttn-application.png "Logo Title Text 1")
+![Add application](https://eco-sensors.ch/wp-content/uploads/2020/04/aqi-ttn-application.png "Add TTN application")
 
 
 ... update is coming
