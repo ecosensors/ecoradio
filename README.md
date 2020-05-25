@@ -41,6 +41,7 @@ Let's go to [your console](https://console.thethingsnetwork.org/) and create an 
 
 [[assets/aqi-ttn-application.png|alt=Add TTN application]]
 
+![alt text](assets/aqi-ttn-application.png "Logo Title Text 1")
 
 
 ... update is coming
