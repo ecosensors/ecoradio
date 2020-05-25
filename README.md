@@ -35,7 +35,7 @@ sudo apt install python3-pil
 sudo pip3 install adafruit-circuitpython-tinylora
 ```
 ### Preparation of your devise at TTN
-We assume, you have created an account at [The Things Network (TTN)](www.thethingsnetwork.org){target="\_blank"} and you already create an application
+We assume, you have created an account at [The Things Network (TTN)](https://www.thethingsnetwork.org){target="\_blank"} and you already create an application
 
 
 
