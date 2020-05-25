@@ -63,4 +63,13 @@ and modify the followings settings
 
 ![Settings](assets/ttn-device-settings.png "Settings")
 
-... update is coming
+* Activation Method => ABP
+* Frame Counter Width => 16 bit
+* Frame Counter Check => Délectionnez-le
+
+and save it.
+
+You will later need the keys of the **Device Address**, the **Network Session Key** and the **App Session Key** 
+
+
+Have a fun and do not miss the python example script.
