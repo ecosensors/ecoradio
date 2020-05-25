@@ -45,7 +45,7 @@ def send_data(data):
     except:
          print("[ERROR] Something went wrong")
 
-    print('[INFO] Data have been send')
+    print('[INFO] Data have been sent')
     time.sleep(0.5)
 
 
