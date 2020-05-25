@@ -39,15 +39,28 @@ We assume, you have created an account at [The Things Network (TTN)](https://www
 
 Let's go to [your console](https://console.thethingsnetwork.org/) and create an application
 
-![Add application](assets/aqi-ttn-application.png "Add TTN application")
+![Add application](assets/ttn-application.png "Add TTN application")
 
 Now, you will ne to create a devise. Return to your application view
 
-![Application view](assets/api-ttn-application-view.png "Application view")
+![Application view](assets/ttn-application-view.png "Application view")
 
-click on the application you just created, select the "Devise" tab and then click *register device*
+click on the application you just created, select the "Devise" tab and then click **register device**
 
-![Add a devise](assets/aqi-ttn-new-devise.png "Add a devise")
+![Add a devise](assets/ttn-new-devise.png "Add a devise")
 
+
+At the field **Device EUI**, make sure you can read *this field will be generated* or give an unique identifier.
+or click on the two arrow, close to the field.
+
+Fianly, click **register**.
+
+Now, edit your new devise and got to the **settings** tab
+
+![Settings](assets/ttn-device-setting-tab.png "Settings")
+
+and modify the followings settings
+
+![Settings](assets/https://eco-sensors.ch/ttn-device-settings.png "Settings")
 
 ... update is coming
