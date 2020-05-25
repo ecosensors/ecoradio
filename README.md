@@ -38,8 +38,8 @@ sudo pip3 install adafruit-circuitpython-tinylora
 We assume, you have created an account at [The Things Network (TTN)](https://www.thethingsnetwork.org)
 
 Let's go to [your console](https://console.thethingsnetwork.org/) and create an application
-[Add an application]: https://eco-sensors.ch/wp-content/uploads/2020/04/aqi-ttn-application.png "Add a TTN application"
 
+[[https://eco-sensors.ch/wp-content/uploads/2020/04/aqi-ttn-application.png|Add TTN application]]
 
 
 
