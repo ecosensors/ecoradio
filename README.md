@@ -27,7 +27,6 @@ sudo apt install python3-pip
 sudo pip3 install adafruit-circuitpython-ssd1306
 sudo apt install python3-pil
 ```
-Updates is coming...
 
 ## RFM95 radio (LoRaWAN)
 ### Installation of the tiny-lora python library
@@ -36,4 +35,3 @@ Updates is coming...
 sudo pip3 install adafruit-circuitpython-tinylora
 ```
 
-Updates is coming...
