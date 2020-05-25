@@ -65,7 +65,7 @@ and modify the following settings
 
 * Activation Method => ABP
 * Frame Counter Width => 16 bit
-* Frame Counter Check => Délectionnez-le
+* Frame Counter Check => uncheck it
 
 and save it.
 
