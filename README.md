@@ -34,6 +34,8 @@ sudo apt install python3-pil
 ```
 sudo pip3 install adafruit-circuitpython-tinylora
 ```
+[Here is](https://github.com/ecosensors/ecoradio/tree/master/lorawan) a python script example, but do not miss to prepare a devise at TTN
+
 ### Preparation of your devise at TTN
 We assume, you have created an account at [The Things Network (TTN)](https://www.thethingsnetwork.org)
 
