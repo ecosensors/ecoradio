@@ -39,7 +39,15 @@ We assume, you have created an account at [The Things Network (TTN)](https://www
 
 Let's go to [your console](https://console.thethingsnetwork.org/) and create an application
 
-![Add application](https://eco-sensors.ch/wp-content/uploads/2020/04/aqi-ttn-application.png "Add TTN application")
+![Add application](assets/aqi-ttn-application.png "Add TTN application")
+
+Now, you will ne to create a devise. Return to your application view
+
+![Application view](assets/api-ttn-application-view.png "Application view")
+
+click on the application you just created, select the "Devise" tab and then click *register device*
+
+![Add a devise](assets/aqi-ttn-new-devise.png "Add a devise")
 
 
 ... update is coming
