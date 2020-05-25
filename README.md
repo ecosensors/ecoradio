@@ -34,29 +34,28 @@ sudo apt install python3-pil
 ```
 sudo pip3 install adafruit-circuitpython-tinylora
 ```
-[Here is](https://github.com/ecosensors/ecoradio/tree/master/lorawan) a python script example, but do not miss to prepare a devise at TTN
+[Here is](https://github.com/ecosensors/ecoradio/tree/master/lorawan) a python script example, but do not miss to prepare a device at TTN
 
-### Preparation of your devise at TTN
+### Preparation of your device at TTN
 We assume, you have created an account at [The Things Network (TTN)](https://www.thethingsnetwork.org)
 
 Let's go to [your console](https://console.thethingsnetwork.org/) and let's create an application
 
 ![Add application](assets/ttn-application.png "Add TTN application")
 
-Now, you will need to create a devise. Return to your application view
+Now, you will need to create a device. Return to your application view
 
 ![Application view](assets/ttn-application-view.png "Application view")
 
-click on the application you just created, select the "Devise" tab
+click on the application you just created, select the "Device" tab
 
-![Add a devise](assets/ttn-new-devise.png "Add a devise")
+![Add a device](assets/ttn-new-devise.png "Add a device")
 
 At the field **Device EUI**, make sure you can read *this field will be generated* or give an unique identifier.
-or click on the two arrow, close to the field.
 
 Finaly, click **register**.
 
-Now, edit your new devise and go to the **settings** tab
+Now, edit your new device and go to the **settings** tab
 
 ![Settings](assets/ttn-device-setting-tab.png "Settings")
 
