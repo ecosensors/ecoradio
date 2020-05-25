@@ -61,6 +61,6 @@ Now, edit your new devise and got to the **settings** tab
 
 and modify the followings settings
 
-![Settings](assets/https://eco-sensors.ch/ttn-device-settings.png "Settings")
+![Settings](assets/ttn-device-settings.png "Settings")
 
 ... update is coming
