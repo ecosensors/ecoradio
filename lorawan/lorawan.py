@@ -59,7 +59,7 @@ lon = 6.1563833
 
 payload = 'a' + str(int(lat * 10000)) + 'b' + str(int(lon * 10000))
 
-print('[DEBUG] payload:' + payload) #payload:a1234b462070c61563
+print('[DEBUG] payload:' + payload) #payload:a462070b615638
 send_data(payload)
 
 print('Check now your TtN consol and try it again')
