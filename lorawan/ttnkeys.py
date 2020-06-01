@@ -1,7 +1,7 @@
 '''
 We assume you already created a aplication and a devise at TTN console
 Here you can store your TTN key from the devise you created at TTN console
-For more detail, look at [this chapter](https://github.com/ecosensors/ecoradio#preparation-of-your-device-at-ttn)
+For more detail, look at this chapter https://github.com/ecosensors/ecoradio#preparation-of-your-device-at-ttn
 '''
 
 import os

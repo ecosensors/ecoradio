@@ -1,13 +1,15 @@
 #get!/usr/bin/env python
 
 '''
-Here is an exemple to use LoRaWAN library with EcoRadio board. This example works fine with another radio board as long as you 
-double check the pin TinyLoRa Configuration. You may have to adapt it following of you connection
+Here is a simple exemple to use LoRaWAN library with EcoRadio board. This example works fine with another radio board as long as you 
+double check the pin TinyLoRa Configuration. You may have to adapt it following of your connection
 '''
 
 '''
 Do not forget to edit the ttnkeys.py file and change the keys according to the devise you recorded at TTN
+NOTE: If you have not saved the correct ttn keys in ttnkeys.py file, the try will not generate an exception, but nothing will be sent to TTN
 '''
+
 import ttnkeys
 from digitalio import DigitalInOut, Direction, Pull
 import time, board, busio
@@ -44,11 +46,12 @@ def send_data(data):
     try:
          lora.send_data(data_pkt, len(data_pkt),lora.frame_counter)
          lora.frame_counter += 1
+         print('[INFO] Data have been sent')
     except:
          print("[ERROR] Something went wrong")
 
-    print('[INFO] Data have been sent')
     time.sleep(0.5)
+
 
 
 lat = 46.2070734
@@ -60,3 +63,4 @@ print('[DEBUG] payload:' + payload) #payload:a1234b462070c61563
 send_data(payload)
 
 print('Check now your TtN consol and try it again')
+exit()
