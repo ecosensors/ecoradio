@@ -8,7 +8,9 @@ double check the pin TinyLoRa Configuration. You may have to adapt it following 
 '''
 Do not forget to edit the ttnkeys.py file and change the keys according to the devise you recorded at TTN
 '''
-
+import ttnkeys
+from digitalio import DigitalInOut, Direction, Pull
+import time, board, busio
 from adafruit_tinylora.adafruit_tinylora import TTN, TinyLoRa
 # TinyLoRa Configuration
 spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
@@ -49,13 +51,12 @@ def send_data(data):
     time.sleep(0.5)
 
 
-location = 'Watter jet of Geneva'
 lat = 46.2070734
 lon = 6.1563833
 
-payload = 'a' + location + 'b' + str(int(lat * 10000)) + 'c' + str(int(lon * 10000))
+payload = 'a' + str(int(lat * 10000)) + 'b' + str(int(lon * 10000))
 
-print('[DEBUG] payload:' + payload)
+print('[DEBUG] payload:' + payload) #payload:a1234b462070c61563
 send_data(payload)
 
 print('Check now your TtN consol and try it again')
